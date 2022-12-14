@@ -9,7 +9,7 @@
 <body>
 
 <?=date('h:i:s A')?>
-<!-- php and html is combined -->
+php and 
 
 </body>
 </html>

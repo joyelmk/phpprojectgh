@@ -7,9 +7,10 @@
     <title>Document</title>
 </head>
 <body>
+<?=da
 
-<?=date('h:i:s A')?>
-<!-- php and html is combined -->
-
+    <?php
+  echo date('h:i:s A');
+    ?>
 </body>
 </html>

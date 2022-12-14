@@ -7,9 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-
-<?=date('h:i:s A')?>
-<!-- php and html is combined -->
-
+    <?php
+  echo date('h:i:s A');
+    ?>
 </body>
 </html>

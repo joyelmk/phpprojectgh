@@ -7,9 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-
-<?=date('h:i:s A')?>
-<!-- php and html is combined -->
-
+    <?php
+  echo date('h:i:s A');
+    ?>
 </body>
 </html>
+
+https://code.tutsplus.com/tutorials/how-to-use-php-in-html-code--cms-34378
