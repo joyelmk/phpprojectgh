@@ -26,8 +26,7 @@ if($_POST) {
         $error = '<div class="alert alert-danger" role="alert"><p>There were error(s) in your form:</p>' . $error . '</div>';
     }
     else {  //email address is good!
-        // $emailTo = "joyelmkej3@gmail.com";
-        $emailTo = "To: " . $_POST['emailto'];
+        $emailTo = "nithishk6765@gmail.com";
         $subject = $_POST['subject'];
         $content = $_POST['content'];
         $headers = "From: " . $_POST['email'];
@@ -68,12 +67,7 @@ if($_POST) {
 
         <form method="post">
             <fieldset class="form-group">
-                <label for="email">Email address From </label>
-                <input type="email" class="form-control" id="email" name="emailto" placeholder="Enter email">
-                <small class="text-muted">We'll never share your e-mail with anyone else.</small>
-            </fieldset>
-              <fieldset class="form-group">
-                <label for="email">Email address To</label>
+                <label for="email">Email address </label>
                 <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
                 <small class="text-muted">We'll never share your e-mail with anyone else.</small>
             </fieldset>
