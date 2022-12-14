@@ -20,7 +20,7 @@
             echo "This is PHP code inside html<br>";
         ?>
         <br><br>
-<h2>second php tag starts</h2>
+<h2>second php tag starts</h1>
 
 
         <?php

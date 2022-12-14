@@ -18,11 +18,12 @@
             <?php 
             echo "This is PHP code inside html<br>";
             echo "This is PHP code inside html<br>";
-        ?>
-        <br><br>
-<h2>second php tag starts</h2>
 
+            
+            
+            ?>
 
+<br><br>
         <?php
         echo 'Explore, learn and grow.'
         ?>
