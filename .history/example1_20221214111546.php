@@ -24,7 +24,7 @@
 
 
         <?php
-        echo 'Explore,  alearn and grow.'
+        echo 'Explore,  learn and grow.'
         ?>
         </p>
         </h2>
