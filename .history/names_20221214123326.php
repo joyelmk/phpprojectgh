@@ -1,5 +1,5 @@
 <?php
-$names=['james','elsy', 'jesly',];
+$names=['james','elsy', 'jesly','joyel'];
 ?>
 
 
@@ -16,13 +16,13 @@ $names=['james','elsy', 'jesly',];
             color: white;
         }
         .more-names{
-            background-color: gray;
+            background-color: ;
         }
     </style>
 </head>
 <body class="">
     <h1>Names</h1>
-    <ul class="<?= count($names)> 3 ? 'more-names' : 'some-names' ?>">
+    <ul>
         <?php foreach($names as $name){?>
             <li><?=$name ?></li>
             <?php }  ?>
